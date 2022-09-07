@@ -1,0 +1,19 @@
+// Columns width
+.column {
+  flex-grow: 1;
+}
+
+// Stream
+.activity-stream {
+  .status.light {
+    .status__content {
+      color: $primary-text-color;
+    }
+
+    .display-name {
+      strong {
+        color: $primary-text-color;
+      }
+    }
+  }
+}
